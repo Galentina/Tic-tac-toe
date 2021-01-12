@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.area-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.area{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.boxX {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  color: #ec2a00;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 30px;
+}
+
+.box0 {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  color: darkblue;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding-top: 30px;
+}
+
+.reset {
+  width: 80px;
+  height: 30px;
+  color: darkblue;
+  border-radius: 10px;
+  border: 1px solid darkblue;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 1px 1px 1px darkgrey;
+}
+
+.winner {
+  height: 20px;
+  color: brown;
+  font-size: 20px;
+}
+
+
+.App-header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: darkblue;
+}
